@@ -117,4 +117,15 @@ public class SinglyLinkedListTest {
         Assert.assertEquals(2, llist.find(932));
         Assert.assertEquals(3, llist.size());
     }
+
+    //METHOD CONTAINS
+    @Test
+    public void testContains() {
+        SinglyLinkedList<Integer> llist = new SinglyLinkedList<>();
+        llist.add(1);
+        llist.add(5);
+        llist.add(932);
+
+        Assert.assertEquals(true, llist.contains(932));
+    }
 }
