@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="singlylinkedlist" />
         <module name="CR-MesoLabs-Collections-SinglyLinkedList" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
-      <module name="CR-MesoLabs-Collections-SinglyLinkedList" target="1.5" />
+    <bytecodeTargetLevel target="11">
+      <module name="CR-MesoLabs-Collections-SinglyLinkedList" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
